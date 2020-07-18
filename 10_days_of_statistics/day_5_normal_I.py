@@ -1,4 +1,4 @@
-from math import pi, sqrt, erf
+from math import erf, sqrt
 
 format_prec_three = "{:.3f}"
 
