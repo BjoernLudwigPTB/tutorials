@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="day_0_mean_mode_median" type="PythonConfigurationType" factoryName="Python" activateToolWindowBeforeRun="false">
+  <configuration default="false" name="day_5_normal_I" type="PythonConfigurationType" factoryName="Python" activateToolWindowBeforeRun="false">
     <module name="tutorials" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
@@ -12,13 +12,13 @@
     <option name="ADD_CONTENT_ROOTS" value="true" />
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-    <option name="SCRIPT_NAME" value="day_0_mean_mode_median.py" />
+    <option name="SCRIPT_NAME" value="day_5_normal_I.py" />
     <option name="PARAMETERS" value="" />
     <option name="SHOW_COMMAND_LINE" value="false" />
     <option name="EMULATE_TERMINAL" value="false" />
     <option name="MODULE_MODE" value="false" />
     <option name="REDIRECT_INPUT" value="true" />
-    <option name="INPUT_FILE" value="code/tutorials/ten_days_of_statistics/day_0_mean_mode_median" />
+    <option name="INPUT_FILE" value="code/tutorials/ten_days_of_statistics/day_5_normal_I" />
     <method v="2" />
   </configuration>
 </component>
