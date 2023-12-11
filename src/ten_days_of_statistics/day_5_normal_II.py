@@ -12,16 +12,8 @@ def challenge_normal_distribution_2():
     first_input = float(input())
     threshold = float(input())
 
-    print(
-        format_prec.format(
-            (1 - cdf_normal(x=first_input, mean=mean, std=std)) * 100
-        )
-    )
-    print(
-        format_prec.format(
-            (1 - cdf_normal(x=threshold, mean=mean, std=std)) * 100
-        )
-    )
+    print(format_prec.format((1 - cdf_normal(x=first_input, mean=mean, std=std)) * 100))
+    print(format_prec.format((1 - cdf_normal(x=threshold, mean=mean, std=std)) * 100))
     print(format_prec.format(cdf_normal(x=threshold, mean=mean, std=std) * 100))
 
 
