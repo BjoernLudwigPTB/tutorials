@@ -13,32 +13,32 @@ def challenge_4():
 
     for k in range(3, 7):
         binom = factorial(6) / (factorial(k) * factorial(6 - k))
-        sum += binom * p ** k * (1 - p) ** (6 - k)
+        sum += binom * p**k * (1 - p) ** (6 - k)
 
     return format_prec_three.format(sum)
 
 
 def challenge_5():
     input = split(" ", input())
-    error_prob, n_pistons = int(input[0])/100, int(input[1])
+    error_prob, n_pistons = int(input[0]) / 100, int(input[1])
 
     sum = 0
 
-    for k in range(1,3):
+    for k in range(1, 3):
         binom = factorial(n_pistons) / (factorial(k) * factorial(n_pistons - k))
-        sum += binom * error_prob ** k * (1 - error_prob) ** (n_pistons - k)
+        sum += binom * error_prob**k * (1 - error_prob) ** (n_pistons - k)
 
     return format_prec_three.format(sum)
 
 
 def challenge_6():
     input = input().split()
-    error_prob, n_pistons = int(input[0])/100, int(input[1])
+    error_prob, n_pistons = int(input[0]) / 100, int(input[1])
 
     sum = 0
 
-    for k in range(1,3):
+    for k in range(1, 3):
         binom = factorial(n_pistons) / (factorial(k) * factorial(n_pistons - k))
-        sum += binom * error_prob ** k * (1 - error_prob) ** (n_pistons - k)
+        sum += binom * error_prob**k * (1 - error_prob) ** (n_pistons - k)
 
     return format_prec_three.format(sum)
