@@ -1,5 +1,3 @@
-from math import factorial
-
 format_prec_three = "{:.3f}"
 
 

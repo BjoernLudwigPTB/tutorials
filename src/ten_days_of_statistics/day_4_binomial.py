@@ -5,8 +5,8 @@ format_prec_three = "{:.3f}"
 
 
 def challenge_4():
-    input = split(" ", input())
-    prob_boys, prob_girls = float(input[0]), float(input[1])
+    inputs = split(" ", input())
+    prob_boys, prob_girls = float(inputs[0]), float(inputs[1])
     p = prob_boys / (prob_boys + prob_girls)
 
     sum = 0
@@ -19,8 +19,8 @@ def challenge_4():
 
 
 def challenge_5():
-    input = split(" ", input())
-    error_prob, n_pistons = int(input[0]) / 100, int(input[1])
+    inputs = split(" ", input())
+    error_prob, n_pistons = int(inputs[0]) / 100, int(inputs[1])
 
     sum = 0
 
@@ -32,8 +32,8 @@ def challenge_5():
 
 
 def challenge_6():
-    input = input().split()
-    error_prob, n_pistons = int(input[0]) / 100, int(input[1])
+    inputs = input().split()
+    error_prob, n_pistons = int(inputs[0]) / 100, int(inputs[1])
 
     sum = 0
 
